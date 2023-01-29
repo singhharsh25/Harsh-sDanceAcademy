@@ -1,0 +1,112 @@
+
+<!DOCTYPE html><html><head><style>@import url("https://fonts.google.com/specimen/Raleway?preview.size=20");
+*{
+   margin: 0;
+   box-sizing: border-box;
+   padding: 0;
+}
+#navbar{
+   background-color: black;
+   padding: 14px 15px;
+   font-family: 'Courier New', Courier, monospace;
+}
+#navbar ul{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+}
+
+#navbar li{
+   list-style: none;
+   
+}
+
+#navbar li a{
+   text-decoration: none;
+   padding: 15px 30px;
+   color: white;
+}
+#introSection{
+
+background: center / cover no-repeat url("/static/serhii-kindrat-NfNSeJ8ghL0-unsplash.jpg") ;
+height: 1000px;
+justify-content: center;
+align-items: center;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+background-color: aqua;
+color: white;
+display: flex;
+flex-direction: column;
+font-size: 50px;
+font-weight: 100;
+}
+#sponsorsSection div.small{
+   font-size: 22px;
+}
+
+#footer {
+   height: 600px;
+   background: center / cover no-repeat url("/static/samantha-weisburg-Vgj9bUwaqT0-unsplash.jpg");
+}
+
+
+#sponsorsSection{
+   padding-top: 20px; 
+   height: 800px ;
+   background: center / cover no-repeat url("/static/preillumination-seth-tWezx1tg8v4-unsplash.jpg");
+   justify-content: center;
+   align-items: center;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   background-color: aqua;
+   color: white;
+   display: flex;
+   flex-direction: column;
+   font-size: 40px;
+   font-weight: 20;
+}
+ *{font-family: Arial, Helvetica, sans-serif;
+   margin: 0;
+   padding: 0;
+}
+
+
+
+h1{
+   text-align: center;
+}
+.container{
+   margin: 35px 0px;
+}
+
+input, textarea{
+   display: block;
+   padding: 5px;
+   margin: 15px auto;
+   width: 60%;
+   outline: none;
+   border: 2px solid black;
+   border-radius: 5px;
+   
+}
+.btn{
+   margin: 4px auto;
+   display: block;
+   padding: 5px 12px;
+   background: #302d2d;
+   color: white;
+   font-weight: bold;
+   font-size: 15px;
+   border: 2px solid black;
+   border-radius: 9px;
+   cursor: pointer;
+   outline: none;
+} </style></head><body> <nav id="navbar"> <ul> <li><a href="/">Home</a></li><li><a href="/">About </a></li><li><a href="/">Services </a></li><li><a href="/">Class Info </a></li><li><a href="/">Contact us </a></li></ul></nav><section id="introSection"> <div> Welcome to Harsh's Dance Academy </div><div class="small"> We are here to teach you </div></section><section id="sponsorsSection"> <div>Online customised dance lessons in the comfort of your own home.</div><div class="small">Do you miss dancing? Would you like to have a personalised dance lesson with a professional dance teacher?</div><div class="small">Our talented lecturers have been trained to provide you with an amazing dancing experience and individual through the online platform of your choice.</div></section><section id="footer">  <h1>Dance academy  membership only on 100$  Hurry fill this form now </h1>
+<!--<p> This is the best content on the internet so far so use it wisely <This is a Plain html using pug</p>-->
+<form action="/" method="post" id="contact">
+<input type="text" name="name" id="name" placeholder="Enter your name">
+<input type="text" name="age" id="age" placeholder="Enter your age">
+<input type="text" name="gender" id="gender" placeholder="Enter your gender">
+<textarea name="address" id="address" cols="30" rows="10" placeholder="Enter your address"></textarea>
+<textarea name="more" id="more" cols="30" rows="10" placeholder="More about you"></textarea>
+<button class="btn">Submit</button>
+</form></section><script></script></body></html>
